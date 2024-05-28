@@ -1,0 +1,47 @@
+#addBtn {
+  background-color: blue;
+  color: white;
+  font-weight: 100;
+}
+
+#selectBtn {
+  background-color: white;
+  color: black;
+}
+
+#deleteBtn {
+  background-color: red;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  min-height: 300px;
+  margin-top: 50px;
+}
+.container h1 {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 300px;
+}
+
+.inputcontainer {
+  padding-left: 200px;
+  margin-top: 50px;
+}
+.inputcontainer #taskInput {
+  display: inline;
+  overflow: visible;
+}/*# sourceMappingURL=style.css.map */

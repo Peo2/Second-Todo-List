@@ -1,0 +1,15 @@
+@import "function";
+
+#addBtn{
+    background-color: $primarycolor;
+    color: set-text-color($primarycolor);
+    font-weight: 100;
+}
+#selectBtn{
+    background-color: $lightcolor;
+    color: set-text-color($lightcolor);
+}
+#deleteBtn{
+    background-color: $dangercolor;
+    color: set-text-color($dangercolor);
+}
