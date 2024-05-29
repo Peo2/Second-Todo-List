@@ -2,33 +2,74 @@
 @import "btn";
 
 
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    background-color: $darkcolor;
-}
-.container{
-    background-color: $lightcolor;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  .container {
+    background-color: white;
     width: 60%;
     margin: auto;
-    min-height: 300px; 
+    min-height: 300px;
     margin-top: 50px;
-    
-    h1{
-        color: $dangercolor;
-        font-family: 'Courier New', Courier, monospace;
-        margin-left: 300px;
-    } 
-}
+  }
+  .container h1 {
+    color: red;
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 300px;
+  }
+  
+  .inputcontainer {
+    padding-left: 100px;
+    margin-top: 50px;
+  }
+  .inputcontainer #taskInput {
+    width: 300px;
+  }
 
-.inputcontainer{
-   padding-left: 200px;
-   margin-top: 50px;
-   #taskInput{
-    display: inline;
-    overflow: visible;
-   } 
+@media(max-width: 500px) {
+    .container{
+        min-height: 400px;
+        width: 360px;
+        margin-top: 150px;
+        margin-left: 40px;
+        h1{
+         color: $primarycolor;
+         margin-left: 100px;
+         font-size: 30px;
+        }
+    }
+    .inputcontainer{
+     background-color: green;
+     min-height: 50px;
+     max-width: 360px;
+     padding-left: 30px;
+     color: white;
+    }
+    input{
+        width: 100px;
+        margin-right: 100px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+    #addBtn{
+        margin-left: 30px;
+        font-weight: 200;
+        font-size: 20px;
+    }
+    #selectBtn{
+        font-weight: 300;
+        font-size: 20px;
+    }
+    #deleteBtn{
+        font-weight: 300;
+        font-size: 20px;
+    }
 }

@@ -31,6 +31,7 @@ body {
   min-height: 300px;
   margin-top: 50px;
 }
+
 .container h1 {
   color: red;
   font-family: "Courier New", Courier, monospace;
@@ -38,10 +39,50 @@ body {
 }
 
 .inputcontainer {
-  padding-left: 200px;
+  padding-left: 100px;
   margin-top: 50px;
 }
+
 .inputcontainer #taskInput {
-  display: inline;
-  overflow: visible;
+  width: 300px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    min-height: 400px;
+    width: 360px;
+    margin-top: 150px;
+    margin-left: 40px;
+  }
+  .container h1 {
+    color: blue;
+    margin-left: 100px;
+    font-size: 30px;
+  }
+  .inputcontainer {
+    background-color: green;
+    min-height: 50px;
+    max-width: 360px;
+    padding-left: 30px;
+    color: white;
+  }
+  input {
+    width: 100px;
+    margin-right: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  #addBtn {
+    margin-left: 30px;
+    font-weight: 200;
+    font-size: 20px;
+  }
+  #selectBtn {
+    font-weight: 300;
+    font-size: 20px;
+  }
+  #deleteBtn {
+    font-weight: 300;
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
